@@ -1,11 +1,12 @@
 .weather {
     width: 300px;
-    border-radius: 6px;
-    box-shadow: 10px -2px 20px 2px rgba(0, 0, 0, 0.33);
-    background-color: #f0efef;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(145, 145, 145, 0.45);
+    background-color: #ffffff;
     color: #333;
     margin: 20px auto 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
+    opacity: 0.92;
 }
 
 .top,
@@ -32,7 +33,7 @@
 
 .weather-icon {
     padding: 10px 0 0 0;
-    width: 75px;
+    width: 80px;
 }
 
 .temperature {
@@ -63,4 +64,8 @@
     text-align: right;
     font-weight: 600;
     font-size: 12px;
+}
+
+.parameter-label-dt{
+    font-weight: bold;
 }
